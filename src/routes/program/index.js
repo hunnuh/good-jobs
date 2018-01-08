@@ -1,18 +1,20 @@
 import { h, Component } from 'preact';
 import style from './style';
-import data from './_data.json'
+import rawdata from './_data.json'
 
 import * as FontAwesome from 'react-icons/lib/fa'
+
+
 
 export default class Program extends Component {
 	state = {
 		time: Date.now(),
-		count: 10
+		data: rawdata.programs[this.props.program]
 	};
 
 	// gets called when this route is navigated to
 	componentDidMount() {
-		console.log(data)
+
 		// start a timer for the clock:
 		this.timer = setInterval(this.updateTime, 1000);
 	}
@@ -31,8 +33,8 @@ export default class Program extends Component {
 		this.setState({ count: this.state.count+1 });
 	};
 
-	render({ program, city }, { time, count }) {
-
+	render({ program, city }, { time, data }) {
+		console.log(city)
 		const programNames = {
 			"electrical": "Electrical",
 			"plumbing": "Plumbing"
@@ -53,9 +55,11 @@ export default class Program extends Component {
 		);
 		return (
 			<div class={style.program}>
-				<div className="center mw8 flex flex-row justify-center mb4">
-					<div className="w-60 ph3">
-						<h1 className="f1 mb2">{data.title} </h1>
+				<div className="center mw8 flex flex-row-ns flex-column justify-center mb4">
+
+
+					<div className="w-60-ns w-100 ph3">
+						<h1 className="f1-ns f2 mb2">{data.title} </h1>
 						<h2 className="f3 mv2">Program: {programNames[program]}</h2>
 						<span className="f3 fw6 ">{ cityNames[city] } // </span>
 						<span className="f3 i">{data.headline}</span>
@@ -73,17 +77,18 @@ export default class Program extends Component {
 						<h3>Call for dates and times of application:</h3>
 						<p className="mv0">{data.contact.name}</p>
 						<p className="mv0">{data.contact.address}</p>
-						<p className="mv0">{data.contact.city}</p>
+						<p className="mv0">{cityNames[city]}, CA</p>
 						<p className="mt0 mb2">{data.contact.phone}</p>
 						<a href={data.contact.web}>{data.contact.web}</a>
 					</div>
-					<div className="w-40 flex flex-column ">
-						<div className="fixed self-center pa3 ">
-							<img className="" src="../../assets/img/electric.png"/>
+
+					<div className="w-40-ns w-100 flex flex-column ">
+						<div className="fixed-ns self-center-ns pa3 ">
+							<img className="" src={data.img}/>
 							<div className="w-100 h3 flex flex-column justify-center">
-								{data.contact.city} // {data.contact.phone}
+								{cityNames[city]}, CA // {data.contact.phone}
 							</div>
-							<div className="w-100 h3 bt bb b--gray flex flex-row justify-between">
+							<div className="w-100 h3 bt bb b--gray flex flex-row items-center justify-between mv2">
 								<div className="flex flex-row w4 h2 items-center self-center justify-between f3">
 									<FontAwesome.FaLinkedin />
 									<FontAwesome.FaFacebook />
@@ -94,6 +99,7 @@ export default class Program extends Component {
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		);

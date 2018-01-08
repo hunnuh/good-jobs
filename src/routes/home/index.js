@@ -52,7 +52,7 @@ export default class Home extends Component {
 								<h1 class={`${style.roboto} ma0 white f4-m f1-ns fw9 b `}>EARN WHILE</h1>
 								<h1 class={`${style.roboto} ma0 white f4-m f1-ns fw9 b `}>YOU LEARN!</h1>
 								<h2 class={`mv2 white f3-l f4 `}>Up to $27/hr in the construction industry</h2>
-								<p class={`mv2 white f4-l f6 lh-copy dn db-l`}>Train for a career in construction, making money while you're still in school. Find out about the exciting Building Trades Apprenticeship programs.</p>
+								<p class={`mv2 white f5-l f6 lh-copy dn db-l`}>Train for a career in construction, making money while you're still in school. Find out about the exciting Building Trades Apprenticeship programs.</p>
 								<div className="mw5-l mv4 ">
 									<Link href="/about" class={`${style.gjhblue} grow pointer mt0-ns pa3 br3 white f4 mt5 link grow pointer`}>Learn more</Link>
 								</div>
@@ -65,7 +65,7 @@ export default class Home extends Component {
 						<div className="w-80 flex flex-row-ns flex-column justify-between self-center mb5">
 							<legend className="ph0 mh0 fw6 clip">Sign Up</legend>
 							<div className="w-25-ns w-100 self-center">
-								<label className="db fw4 lh-copy f6" for="email-address">Email address</label>
+								<label className="db fw4 lh-copy f6" for="email-address">Email address (optional)</label>
 								<input className="pa2 input-reset ba br3 w-100 measure" type="email" name="email-address"  id="email-address"/>
 							</div>
 							<div className="w-25-ns w-100 mt3 self-center">
@@ -74,10 +74,11 @@ export default class Home extends Component {
 									className="mb3"
 									name="city-selector"
 									value={city}
+									arrowRenderer = {null}
 									clearable={false}
 									searchable={false}
 									onChange={this.handleCityChange}
-									placeholder="Select City..."
+									placeholder="Click Here to Select City..."
 									options={[
 										{ value: 'sf', label: 'San Francisco' },
 										{ value: 'la', label: 'Los Angeles' },
@@ -88,12 +89,12 @@ export default class Home extends Component {
 								<label className="db fw4 lh-copy f6" >Program</label>
 								<Select
 									className="mb3"
-
+									arrowRenderer = {null}
 									name="program-selector"
 									value={program}
 									clearable={false}
 									onChange={this.handleProgramChange}
-									placeholder="Select Program..."
+									placeholder="Click here to Select Program..."
 									searchable={false}
 									options={[
 										{ value: 'plumbing', label: 'Plumbing' },

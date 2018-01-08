@@ -1,32 +1,68 @@
-{
-  "title": "Inside Wiremen",
-  "headline": "Wiring Up The World",
-  "blurb": "Inside Wiremen install and maintain all raceways, electrical wiring and related systems for distribution of electrical light, heat, power, radio, and signalling. They’re also responsible for the installation and maintenance of Solar Photovoltaic, Fire/Life Safety, HVAC systems and equipment. They work in new and existing residential, commercial, and industrial buildings performing installations of raceway, wiring methods above and below ground. Street and highway lighting, traffic signals, power distribution and other outdoor installations above and below ground.  They lift substantial loads, climb, crouch, and work in confined spaces.",
-  "programDesc": [
-    "8000 hours (five years) of on-the-job training",
-    "1,100 hours of classes",
-    "Applicants selected for indenture will be subject to comprehensive drug testing before job placement."
-  ],
-  "programReqs": [
-    "At least 17 years of age on applying and 18 or older to be indentured;",
-    "Photo identification (driver’s license, DMV ID card, or passport)",
-    "Proof of high school diploma or its equivalent (Non-English diplomas and/or transcripts must be presented with a translation notarized with an embossed notary seal).  Proof of a two-year Associate Degree or higher may be used in lieu of a high school diploma.",
-    "Evidence of successful completion (grade of C or higher) of one full year (two semesters) of high school algebra or calculus or of one post high school (e.g., Adult Ed., Community College) algebra or calculus course, or evidence of having passed the NJATC Tech Math Course (www.njatc.utk.edu).  Transcripts in English must be provided on application or by mail if received at the address below on or before the date of application.",
-    "Must not be color blind, as wiring is frequently color-coded.",
-    "Must take a written exam to qualify.",
-    "Must submit to an oral interview if qualified"
-  ],
-  "additional": [
-    "Applicants must have a valid California driver’s license at time of indenture.",
-    "An honorably discharged United States military veteran will qualify for oral interview by the SFJATC (must apply within five (5) years from discharge date)",
-    "Applicants with a minimum of four thousand (4,000) hours of substantiated electrical construction work experience (provide documentation) will be scheduled for an oral interview."
-  ],
-  "contact":{
-    "name":"San Francisco Joint Apprenticeship and Training Committee",
-    "address":"4056 Mission Street",
-    "city":"San Francisco, CA 94112",
-    "phone":"(415) 587-2500",
-    "web":"http://www.sfelectricaltraining.com/"
-  }
 
+{
+  "programs":{
+    "electrical":{
+      "title": "Inside Wiremen",
+      "headline": "Wiring Up The World",
+      "blurb": "Inside Wiremen install and maintain all raceways, electrical wiring and related systems for distribution of electrical light, heat, power, radio, and signalling. They’re also responsible for the installation and maintenance of Solar Photovoltaic, Fire/Life Safety, HVAC systems and equipment. They work in new and existing residential, commercial, and industrial buildings performing installations of raceway, wiring methods above and below ground. Street and highway lighting, traffic signals, power distribution and other outdoor installations above and below ground.  They lift substantial loads, climb, crouch, and work in confined spaces.",
+      "programDesc": [
+        "8000 hours (five years) of on-the-job training",
+        "1,100 hours of classes",
+        "Applicants selected for indenture will be subject to comprehensive drug testing before job placement."
+      ],
+      "programReqs": [
+        "At least 17 years of age on applying and 18 or older to be indentured;",
+        "Photo identification (driver’s license, DMV ID card, or passport)",
+        "Proof of high school diploma or its equivalent (Non-English diplomas and/or transcripts must be presented with a translation notarized with an embossed notary seal).  Proof of a two-year Associate Degree or higher may be used in lieu of a high school diploma.",
+        "Evidence of successful completion (grade of C or higher) of one full year (two semesters) of high school algebra or calculus or of one post high school (e.g., Adult Ed., Community College) algebra or calculus course, or evidence of having passed the NJATC Tech Math Course (www.njatc.utk.edu).  Transcripts in English must be provided on application or by mail if received at the address below on or before the date of application.",
+        "Must not be color blind, as wiring is frequently color-coded.",
+        "Must take a written exam to qualify.",
+        "Must submit to an oral interview if qualified"
+      ],
+      "additional": [
+        "Applicants must have a valid California driver’s license at time of indenture.",
+        "An honorably discharged United States military veteran will qualify for oral interview by the SFJATC (must apply within five (5) years from discharge date)",
+        "Applicants with a minimum of four thousand (4,000) hours of substantiated electrical construction work experience (provide documentation) will be scheduled for an oral interview."
+      ],
+      "contact":{
+        "name":"San Francisco Joint Apprenticeship and Training Committee",
+        "address":"4056 Mission Street",
+        "city":"San Francisco, CA 94112",
+        "phone":"(415) 587-2500",
+        "web":"http://www.sfelectricaltraining.com/"
+      },
+      "img":"../../assets/img/electric.png"
+    },
+
+    "plumbing":{
+      "title": "Plumbers & Pipe Fitters",
+      "headline": "Constant Flow to Your Home ",
+      "blurb": "Plumbers and pipe fitters install, remove, maintain, repair, and modify plumbing systems using pipes of various materials and many types of fixtures. Plumbing systems include sanitary drainage, storm drainage, special waste handling, public and private water supply, gas piping in or adjacent to buildings, piping for air conditioning and refrigeration, medical piping in hospitals and clinics, and piping for industrial processes.",
+      "programDesc": [
+        "Completion takes a minimum of five years, broken down into ten periods.",
+        "You will receive paid on-the-job training.",
+        "Two nights per week of Related and Supplemental Instructional Classes in the evening (unpaid)."
+      ],
+      "programReqs": [
+        "No previous experience necessary to enter the program.",
+        "Must be 17 years of age (18 years to become indentured).",
+        "A valid California driver's license or birth certificate.",
+        "Must be a high school graduate with diploma or its equivalent. Must bring original diploma or G.E.D. paperwork when applying.",
+        "Must be able to perform the physical requirements of the trade."
+      ],
+      "additional": [
+        "Applications will be available sometime in June 2018. Exact dates for the application period are determined 30 to 45 days prior.",
+        "To find out exact dates of the application period, either check online at www.ualocal38.org or call the Apprenticeship Department at (415) 562-3838",
+        "You may fill out your contact information on the postcard portion of the Apprenticeship Brochure and return it to our office. Then, before the application period arises, you will receive notification by mail informing you of the dates."
+      ],
+      "contact":{
+        "name":"United Association Local 38 Apprenticeship Training Program",
+        "address":"2660 Newhall St.",
+        "city":"San Francisco, CA 94124",
+        "phone":"(415) 562-3838",
+        "web":"http://www.ualocal38.org/"
+      },
+      "img":"../../assets/img/plumbing.png"
+    }
+  }
 }
