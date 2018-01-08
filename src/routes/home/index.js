@@ -55,11 +55,9 @@ export default class Home extends Component {
 								<p class={`mv2 white f4-l f6 lh-copy dn db-l`}>Train for a career in construction, making money while you're still in school. Find out about the exciting Building Trades Apprenticeship programs.</p>
 								<div className="mw5-l mv4 ">
 									<Link href="/about" class={`${style.gjhblue} grow pointer mt0-ns pa3 br3 white f4 mt5 link grow pointer`}>Learn more</Link>
-
 								</div>
 							</div>
 						</div>
-
 					</div>
 					<div class={` w-100 h5-ns mb4 flex flex-column justify-start z-2 `} >
 						<div class={`${style.shadow} absolute w-100`}></div>
